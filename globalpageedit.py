@@ -16,3 +16,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Doing nothing...
+
+# Configuration
+page="" # The user page to edit
