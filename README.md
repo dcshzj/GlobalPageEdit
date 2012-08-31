@@ -10,3 +10,5 @@ This script needs a list of URLs in a separate file (called listofwikis.txt in t
 Edit the required configuration in globalpageedit.py with the relevant information before you run the script. Double-check, triple-check before running this script as the effects of mistakes is tremendous (and may carry a ban following it). **YOU HAVE BEEN WARNED**.
 
 Disclaimer: The author (Hydriz) accepts no liability for damages incurred by third-parties running this script.
+
+More information is available in this repository's wiki.
