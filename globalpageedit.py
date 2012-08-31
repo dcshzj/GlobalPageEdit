@@ -15,21 +15,13 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+# Configuration goes into settings.py, not here!
+
+import settings
 import wikitools
 
-# Configuration
-username = ""
-password = ""
-page = "" # The user page to edit
-text = u'''
-'''
-summary = ""
-wikis = open("listofwikis.txt", 'r').read().splitlines()
-########## DANGER!!! ##### DANGER!!! ##### DANGER!!! ##########
-# IMPORTANT: WILL OVERWRITE EVERYTHING, PLEASE ADD WIKIS THAT SHOULD BE SKIPPED IN HERE!
-skipwikis = {}
-
 # Nothing to change below...
+wikis = open(wikilist, 'r').read().splitlines()
 def welcome():
 	# Welcome message, but includes some checks...
 	if (username == "") or (password == "") or (page == ""):
