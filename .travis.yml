@@ -6,4 +6,7 @@ python:
   - "2.4"
 before_script:
   - "svn checkout http://python-wikitools.googlecode.com/svn/trunk/wikitools/"
-script: "python globalpageedit.py"
+script:
+  - "python -m py_compile globalpageedit.py"
+  - "python -m py_compile settings.py"
+  - "python -m py_compile generatewikilist.py"
