@@ -23,4 +23,4 @@ wikilist = "listofwikis.txt" # List of wikis to edit.
 # Wikis to skip
 ########## DANGER!!! ##### DANGER!!! ##### DANGER!!! ##########
 # IMPORTANT: WILL OVERWRITE EVERYTHING, PLEASE ADD WIKIS THAT SHOULD BE SKIPPED IN HERE!
-skipwikis = {}
+skipwikis = []
