@@ -5,7 +5,6 @@ This is a bot that is written in python that edits Wikimedia wikis in the [beta 
 This tool depends on:
 
 1. [wikitools](https://code.google.com/p/python-wikitools/) (SVN checkout the wikitools directory in trunk in the same folder as the script)
-
 2. Not Python 3.
 
 ### Setting up the script
