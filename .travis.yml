@@ -9,4 +9,3 @@ before_script:
 script:
   - "python -m py_compile globalpageedit.py"
   - "python -m py_compile settings.py"
-  - "python -m py_compile generatewikilist.py"
