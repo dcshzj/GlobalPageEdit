@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/Hydriz/GlobalPageEdit.png)](http://travis-ci.org/Hydriz/GlobalPageEdit)
+
 This is a bot that is written in python that edits Wikimedia wikis in the [beta cluster](http://deployment.wikimedia.beta.wmflabs.org) and creates global user pages for anyone.
 
 This tool depends on:
