@@ -20,6 +20,16 @@
 import settings
 import wikitools
 
+# Globalising the settings in settings.py
+action = settings.action
+username = settings.username
+password = settings.password
+page = settings.page
+text = settings.text
+summary = settings.summary
+wikilist = settings.wikilist
+skipwikis = settings.skipwikis
+
 # Nothing to change below...
 wikis = open(wikilist, 'r').read().splitlines()
 def welcome():
