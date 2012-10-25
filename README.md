@@ -5,7 +5,7 @@ This is a bot that is written in python that edits Wikimedia wikis in the [beta 
 This tool depends on:
 
 1. [wikitools](https://code.google.com/p/python-wikitools/) (SVN checkout the wikitools directory in trunk in the same folder as the script)
-2. Not Python 3.
+2. Python 2.6 and above.
 
 ### Setting up the script
 This script needs a list of URLs in a separate file (called listofwikis.txt in the same directory). You would have to manually generate it so that the bot knows where to edit. Please omit the ".org" suffix as it is already included in the script.

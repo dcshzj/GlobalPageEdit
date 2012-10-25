@@ -2,7 +2,6 @@ language: python
 python:
   - "2.7"
   - "2.6"
-  - "2.5"
 before_script:
   - "svn checkout http://python-wikitools.googlecode.com/svn/trunk/wikitools/"
 script:
