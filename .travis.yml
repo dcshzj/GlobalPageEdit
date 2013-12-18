@@ -3,9 +3,11 @@ python:
   - "2.7"
   - "2.6"
   - "2.5"
+  - "2.4"
 install:
   - "pip install simplejson"
 before_script:
-  - "svn checkout http://python-wikitools.googlecode.com/svn/trunk/wikitools/"
+  - "git clone https://github.com/alexz-enwp/wikitools.git . "
+  - "rm CHANGELOG README setup.py"
 script:
   - nosetests
