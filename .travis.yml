@@ -7,7 +7,7 @@ python:
 install:
   - "pip install simplejson"
 before_script:
-  - "git clone https://github.com/alexz-enwp/wikitools.git . "
-  - "rm CHANGELOG README setup.py"
+  - "git clone https://github.com/alexz-enwp/wikitools.git"
+  - "cd wikitools && python setup.py install"
 script:
   - nosetests
