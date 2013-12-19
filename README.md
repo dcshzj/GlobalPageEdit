@@ -5,7 +5,7 @@ This is a bot that is written in python that edits Wikimedia wikis in the [beta 
 This tool depends on:
 
 1. Python 2.5 and above.
-2. [wikitools](https://code.google.com/p/python-wikitools/) (SVN checkout the wikitools directory in trunk in the same folder as the script).
+2. The python [wikitools](https://github.com/alexz-enwp/wikitools) package.
 3. The python simplejson package (install with `pip install simplejson`).
 
 ### Setting up the script
